@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Comments on: Fix for video problems on ATI	</title>
+	<atom:link href="https://www.plex.tv/blog/fix-for-video-problems-on-ati/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.plex.tv/blog/fix-for-video-problems-on-ati/</link>
+	<description>Stream smarter.</description>
+	<lastBuildDate>Thu, 14 Jun 2018 21:26:29 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+	<item>
+		<title>
+		By: elan		</title>
+		<link>https://www.plex.tv/blog/fix-for-video-problems-on-ati/#comment-36975</link>
+
+		<dc:creator><![CDATA[elan]]></dc:creator>
+		<pubDate>Fri, 18 Jan 2008 04:35:56 +0000</pubDate>
+		<guid isPermaLink="false">http://elan.plexapp.com/2008/01/16/fix-for-video-problems-on-ati/#comment-36975</guid>
+
+					<description><![CDATA[In reply to &lt;a href=&quot;https://www.plex.tv/blog/fix-for-video-problems-on-ati/#comment-36974&quot;&gt;Matt&lt;/a&gt;.
+
+Thanks, Matt. Networking should be working, but then again it may only work for those who go through en0. Are you connected via wireless?
+
+I&#039;m the only one working on the &quot;core&quot; right now, although a few other people (e.g. cullman, tokyovigilante) are helping out with some of the other parts like the plug-in codecs and Python. I&#039;d welcome any help I can get!]]></description>
+			<content:encoded><![CDATA[<p>In reply to <a href="https://www.plex.tv/blog/fix-for-video-problems-on-ati/#comment-36974">Matt</a>.</p>
+<p>Thanks, Matt. Networking should be working, but then again it may only work for those who go through en0. Are you connected via wireless?</p>
+<p>I&#8217;m the only one working on the &#8220;core&#8221; right now, although a few other people (e.g. cullman, tokyovigilante) are helping out with some of the other parts like the plug-in codecs and Python. I&#8217;d welcome any help I can get!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Matt		</title>
+		<link>https://www.plex.tv/blog/fix-for-video-problems-on-ati/#comment-36974</link>
+
+		<dc:creator><![CDATA[Matt]]></dc:creator>
+		<pubDate>Fri, 18 Jan 2008 04:26:56 +0000</pubDate>
+		<guid isPermaLink="false">http://elan.plexapp.com/2008/01/16/fix-for-video-problems-on-ati/#comment-36974</guid>
+
+					<description><![CDATA[Awesome work elan! I&#039;ve got it up and running on my imac. Videos are running fast and without audio. Also networking doesn&#039;t seem to be working. Are you planning on implementing the apple remote?
+
+Btw, how&#039;s the current status? Are you getting help from any other devs?
+
+Keep up the great work!]]></description>
+			<content:encoded><![CDATA[<p>Awesome work elan! I&#8217;ve got it up and running on my imac. Videos are running fast and without audio. Also networking doesn&#8217;t seem to be working. Are you planning on implementing the apple remote?</p>
+<p>Btw, how&#8217;s the current status? Are you getting help from any other devs?</p>
+<p>Keep up the great work!</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: elan		</title>
+		<link>https://www.plex.tv/blog/fix-for-video-problems-on-ati/#comment-36973</link>
+
+		<dc:creator><![CDATA[elan]]></dc:creator>
+		<pubDate>Thu, 17 Jan 2008 20:34:34 +0000</pubDate>
+		<guid isPermaLink="false">http://elan.plexapp.com/2008/01/16/fix-for-video-problems-on-ati/#comment-36973</guid>
+
+					<description><![CDATA[@Karel: The Mac Mini has an Intel graphics chipset, not ATI, so this release does not help you. I&#039;ll try to get the Mini fix in soon.]]></description>
+			<content:encoded><![CDATA[<p>@Karel: The Mac Mini has an Intel graphics chipset, not ATI, so this release does not help you. I&#8217;ll try to get the Mini fix in soon.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: d4rk		</title>
+		<link>https://www.plex.tv/blog/fix-for-video-problems-on-ati/#comment-36972</link>
+
+		<dc:creator><![CDATA[d4rk]]></dc:creator>
+		<pubDate>Thu, 17 Jan 2008 16:55:27 +0000</pubDate>
+		<guid isPermaLink="false">http://elan.plexapp.com/2008/01/16/fix-for-video-problems-on-ati/#comment-36972</guid>
+
+					<description><![CDATA[&quot;Iâ€<img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" />m not quite sure what its raison dâ€<img src="https://s.w.org/images/core/emoji/12.0.0-1/72x72/2122.png" alt="™" class="wp-smiley" style="height: 1em; max-height: 1em;" />Ãªtre was and&quot;
+
+The reason was that ATI Linux drivers suck (at least they used to, haven&#039;t tried their latest ones) and therefore it required special handling. It couldn&#039;t do multi-context rendering without crashing. However, few weeks back, I updated the main GL renderer so that all texture loads happen from the main GUI thread, which optimized video playback on non-ATI GPUs but had the side effect of breaking the ATI renderer.]]></description>
+			<content:encoded><![CDATA[<p>&#8220;Iâ€™m not quite sure what its raison dâ€™Ãªtre was and&#8221;</p>
+<p>The reason was that ATI Linux drivers suck (at least they used to, haven&#8217;t tried their latest ones) and therefore it required special handling. It couldn&#8217;t do multi-context rendering without crashing. However, few weeks back, I updated the main GL renderer so that all texture loads happen from the main GUI thread, which optimized video playback on non-ATI GPUs but had the side effect of breaking the ATI renderer.</p>
+]]></content:encoded>
+		
+			</item>
+		<item>
+		<title>
+		By: Karel		</title>
+		<link>https://www.plex.tv/blog/fix-for-video-problems-on-ati/#comment-36971</link>
+
+		<dc:creator><![CDATA[Karel]]></dc:creator>
+		<pubDate>Thu, 17 Jan 2008 15:59:53 +0000</pubDate>
+		<guid isPermaLink="false">http://elan.plexapp.com/2008/01/16/fix-for-video-problems-on-ati/#comment-36971</guid>
+
+					<description><![CDATA[Does this release fix the Mac mini issue? TIA.]]></description>
+			<content:encoded><![CDATA[<p>Does this release fix the Mac mini issue? TIA.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>
